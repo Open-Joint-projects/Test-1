@@ -1,0 +1,134 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family:'Montserrat Alternates', sans-serif;
+    background-color:#161616;
+    color:#fff;
+    font-size:16px;
+}
+a {
+    text-decoration: none;
+}
+h1, h2, h3, h4, h5, h6 {
+    padding:0;
+    margin:0;
+    text-transform: uppercase;
+}
+h1.title {
+    position: absolute;
+    top:0;
+    margin-top:0;
+    left:70px;
+    padding: 14px;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    background-color:#131414;
+    color:#fef;
+    border-radius:0.5em;
+    text-transform: none;
+}
+ul{
+    display:block;
+    padding:0px;
+    margin: 0px;
+    list-style: none;
+}
+.items a {
+    color:#fff;
+}
+.items span {
+    position: relative;
+    top:-10px;
+}
+.items .scores {
+    transition:all 0.2s ease
+}
+.items .profile-item:hover .scores {
+    color:#bb432c;
+}
+.items .kyu_id {
+    margin: 0 15px;
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 15px;
+    border-color:#F5BE0A;
+    border-style: solid;
+    color:#F5BE0A;
+}
+header.main {
+    width: 400px;
+    height: 56px;
+    position: fixed;
+    right: 0;
+    top: 0;
+}
+.sideNav {
+    height: 100%;
+    background-color: #131414;
+    color:#fff;
+    z-index:100;
+    position:fixed;
+    left:0;
+    top:0;
+    /* margin-left:-320px; */
+    /* width открывающегося окна = 320px */
+    width: 60px;
+    overflow:hidden;
+    transition: all 0.5s ease;
+}
+.sideNav:hover {
+    width:320px
+}
+.sideNav li {
+    display: block;
+}
+.sideNav div {
+    transition:all 0.5s;
+}
+.sideNav .logoContainer img {
+    width: 36px;
+    height: 36px;
+    padding: 8px;
+}
+.sideNav .logoContainer {
+    display: inline-flex;
+}
+.sideNav div>div {
+    display: none;
+}
+.sideNav:hover div>div {
+    display: block;
+}
+.side-menu .sideNav-item {
+    display: flex;
+    flex-direction: row;
+    margin-top: 4px;
+    min-width: 100%;
+    max-width: 320px;
+}
+.side-menu .sidenav-separator {
+    margin-top: 16px;
+    margin-left:10px   
+   }
+.menu {
+    display: flex;
+    justify-content: end;
+    margin-top: 30px;
+}
+.menu li {
+    display: inline;
+    padding: 18px;
+}
+.items .img-avatar{
+    width: 38px;
+    height: 38px;
+}
+ul.items .moon {
+    width: 30px;
+    height: 30px;
+}
+ul.items img {
+    width:30px;
+    height: 30px;
+}
