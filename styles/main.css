@@ -66,7 +66,7 @@ ul{
     color:#F5BE0A;
 }
 
-header.main {
+header{
     width: 400px;
     height: 56px;
     position: fixed;
@@ -132,13 +132,13 @@ header.main {
     margin-left: 10px;
 }
 
-.menu {
+.header__nav-menu {
     display: flex;
     justify-content: end;
     margin-top: 30px;
 }
 
-.menu li {
+.header__nav-menu li {
     display: inline;
     padding: 18px;
 }
